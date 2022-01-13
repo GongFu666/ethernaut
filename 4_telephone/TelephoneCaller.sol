@@ -22,8 +22,6 @@ contract TelephoneCaller {
 
     function callTelephone(address myAddress) public {
 
-        (bool success,) = telephone.changeOwner(myAddress);
-        
-        require(success, "Not sucessful...");
+        telephone.changeOwner(myAddress);
     }
 }
