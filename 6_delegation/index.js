@@ -1,6 +1,6 @@
 const ethers = require('ethers');
 
-const message = "pwn()";
+const message = "constructor(bytes32)";
 
 function getMessageData() {
 
