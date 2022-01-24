@@ -11,7 +11,7 @@ We need to make sure that ```gasleft().mod(8191) == 0```. The gas that is left w
 
 Gate 3:
 -------
-Todo...
+see [this link](https://medium.com/coinmonks/ethernaut-lvl-13-gatekeeper-1-walkthrough-how-to-calculate-smart-contract-gas-consumption-and-eb4b042d3009)
 
 1. Deploy the ```Player``` contract of GatekeeperOne.sol.
 2. Call its ```enterTheGates``` function with your instance as parameter.
